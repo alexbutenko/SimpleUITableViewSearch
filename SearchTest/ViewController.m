@@ -12,6 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *arrayOfStrings;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
 
@@ -28,6 +29,13 @@
         self.arrayOfStrings = [loadedData mutableCopy];
         [self.tableView reloadData];
     }];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.navigationItem.titleView = self.searchBar;
 }
 
 - (void)loadDataWithCompletionHandler:(void(^)(NSArray *loadedData))block {

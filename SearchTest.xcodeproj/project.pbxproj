@@ -21,6 +21,7 @@
 		52305CE1197DE8400076A603 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52305CC3197DE8400076A603 /* UIKit.framework */; };
 		52305CE9197DE8400076A603 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52305CE7197DE8400076A603 /* InfoPlist.strings */; };
 		52305CEB197DE8400076A603 /* SearchTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52305CEA197DE8400076A603 /* SearchTestTests.m */; };
+		52305CF6197DEC680076A603 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52305CF5197DEC680076A603 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		52305CE6197DE8400076A603 /* SearchTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchTestTests-Info.plist"; sourceTree = "<group>"; };
 		52305CE8197DE8400076A603 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52305CEA197DE8400076A603 /* SearchTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTestTests.m; sourceTree = "<group>"; };
+		52305CF4197DEC680076A603 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		52305CF5197DEC680076A603 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				52305CD5197DE8400076A603 /* ViewController.m */,
 				52305CD7197DE8400076A603 /* Images.xcassets */,
 				52305CC6197DE8400076A603 /* Supporting Files */,
+				52305CF4197DEC680076A603 /* DetailsViewController.h */,
+				52305CF5197DEC680076A603 /* DetailsViewController.m */,
 			);
 			path = SearchTest;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				52305CD6197DE8400076A603 /* ViewController.m in Sources */,
 				52305CD0197DE8400076A603 /* AppDelegate.m in Sources */,
 				52305CCC197DE8400076A603 /* main.m in Sources */,
+				52305CF6197DEC680076A603 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				52305CF0197DE8400076A603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52305CF1197DE8400076A603 /* Build configuration list for PBXNativeTarget "SearchTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				52305CF3197DE8400076A603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
